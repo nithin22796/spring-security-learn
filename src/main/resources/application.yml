@@ -1,4 +1,7 @@
 spring:
+  app:
+    jwtSecret: PAKbkhnvZCDM+b/X8MR6JUiwQ4+J6ySNfzmS3SEH0840Z/s1ENTc/yDIOGDHrrX0s5G+pJRBBmHBytnS4Onf7nDGpD6Sg67JRN6k3ETbPcy+2jyz8qeIszCWV/wpjGlvJmtRCos4hs5SJe7aYsm9/RSUsXBgNIZH4tJPSBFxJBPnBRDw9Sd47ndDswGlvXGU9F+nXcXh+MYKeAaZatOJdf8gXHpd/Cmmdiagw6PpR7J4NzZmGrAzGJgvP5Q3EQOKDJzi/NYkLc7xsA+yl5cM34AhJiaYt2At8GfiyQO4N3X9urSd9mxLdVJDV3OMAan6nztZO9+sq1q7jNwxV22gfA==
+    jwtExpirationMs: 30000000
   application:
     name: security-demo
   datasource:
